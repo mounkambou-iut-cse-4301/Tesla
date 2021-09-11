@@ -3,7 +3,7 @@ import { View, Text, ImageBackground } from 'react-native'
 import StyleButton from '../StyleButtom'
 import styles from './styles'
 function CarItem(props) {
-    const { name, tagline, taglineCTA, image } = props;
+    const { name, tagline, taglineCTA, image } = props.car;
     return (
         <View style={styles.carContainer}>
             <ImageBackground
